@@ -4,7 +4,7 @@ let intPar2 = 20;
 
 function comperator (intA, intB)
 {
-    if  (intA == 20 || intB == 20 || intA+intB == 20)
+    if  (intA == 20 || intB == 20 || intA+intB <= 20)
     {
         return true;
     }
