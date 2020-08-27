@@ -1,0 +1,72 @@
+body
+{
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url('img/wallpaper.png');
+    font-size: 22px;
+}
+
+#formMain
+{
+    background-color: cornsilk;
+    width: 300px;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+
+    /* used CSSMatic */
+    -webkit-box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.75);
+}
+
+#formMain > *
+{
+    outline: none;
+    width: 300px;
+    border: 2px solid #ddd;
+    background-color: #ADE1E5;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+#butMain
+{
+    background-color: #73AB84;
+    color: floralwhite;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#container
+{
+
+    background-color: #F2F3AE;
+    font-size: 30px;
+    width: 300px;
+    padding: 50px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+    /* used CSSMatic */
+    -webkit-box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contPar
+{
+    text-align: left;
+    font-size: 20px;
+    background-color: #69140E;
+    color: floralwhite;
+    font-style: italic;
+    border-radius: 5px;
+}
