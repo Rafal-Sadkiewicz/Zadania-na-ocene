@@ -1,11 +1,16 @@
-let intPar = 99;
 
-if (intPar > 99 && intPar < 201)
+function comperator (intA)
 {
-    console.log('Liczba znajduje się w przedziale');
+    if (intA > 99 && intA < 201)
+    {
+        console.log('Liczba znajduje się w przedziale');
+    }
+
+    else
+    {
+        console.log('Liczba nie znajduje się w przedziale');
+    }
 }
 
-else
-{
-    console.log('Liczba nie znajduje się w przedziale');
-}
+
+comperator(99);
